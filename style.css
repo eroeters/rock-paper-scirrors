@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.mainContent {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 50px;
+}
+

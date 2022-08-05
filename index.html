@@ -8,6 +8,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="mainContent">
+      <h1>Rock, Paper, Scissors</h1>
+
+      <h3>Make your choice!</h3>
+
+      <div class="buttons">
+        <button class="buttonClick" value="rock" onclick="output()">
+          Rock
+        </button>
+
+        <p id="test"></p>
+
+        <button class="buttonClick" value="paper" onclick="output()">
+          Paper
+        </button>
+
+        <button class="buttonClick" value="scissors" onclick="output()">
+          Scissors
+        </button>
+      </div>
+
+      <div class="score">
+        <span>
+          <p id="playerLabel">Player Score: <span id="playerScore">0</span></p>
+          <p id="computerLabel">
+            Computer Score: <span id="computerScore">0</span>
+          </p>
+        </span>
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
