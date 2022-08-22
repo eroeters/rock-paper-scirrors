@@ -54,23 +54,4 @@
 // let paper = document.getElementById("paper").value; 
 // let scissors = document.getElementById("scissors").value; 
 
-function computerGuess() {
-    const compChoice = ["Rock", "Paper", "Scissors"];
-    const randomizer = Math.floor(Math.random()* 3);
-    return compChoice[randomizer];
-}
 
-let playerChoice = document.querySelectorAll(".buttonClick");
-
-playerChoice.forEach(e1 => {
-    e1.addEventListener("click", output);
-});
-
-function output() {
-    console.log(this.value)
-    return this.value;
-}
-
-function game() {
-    
-}
